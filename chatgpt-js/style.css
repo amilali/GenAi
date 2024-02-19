@@ -4,14 +4,23 @@ padding: 0;
 box-sizing: border-box;
 }
 .chat{
+border-bottom: 1px solid white;
 min-width: 100dvw;
 min-height: 90dvh;
 background-color: #171717;
 color: white;
 display: flex;
+flex-direction: column-reverse;
 justify-content: center;
 align-items: center;
+text-align: justify;
 }
+
+#text{
+margin-left: 10%;
+margin-right: 10%;
+}
+
 .chat-in{
 min-width: 100dvw;
 min-height: 10dvh;
@@ -38,4 +47,9 @@ cursor: pointer;
 }
 input[type='submit']:active{
 background-color: #ffffff8d;
+}
+
+#text{
+display: flex;
+text-align: justify;
 }
