@@ -27,7 +27,7 @@ try {
     method: 'POST',
     headers: {
             'Content-Type': 'application/json',
-            Authorization : 'Bearer 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',
+            Authorization : 'Bearer You_api_key',
     },
     body: JSON.stringify({
             model: "gpt-3.5-turbo",
@@ -42,7 +42,6 @@ try {
 catch (error) {
     console.log(error);
 }
-
 }
 
 inputbox.addEventListener('keydown', (e)=>{
