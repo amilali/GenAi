@@ -1,2 +1,2 @@
 # GenAi
-Amil's all genAi projects
+Amil's all genAi projects.
