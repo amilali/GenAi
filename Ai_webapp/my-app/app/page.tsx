@@ -4,7 +4,6 @@ import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 // import { Moon, Sun } from "lucide-react";
-import {ThreeDCardDemo} from "@/components/ui/ThreeDCardDemo";
 import {features} from '@/app/utils'
 
 
@@ -61,7 +60,6 @@ export default function Home() {
             {features.map((feature, index) => {
               const Icon = feature.icon;
               return (
-                // <ThreeDCardDemo key={index} iconBg={feature.iconBg} iconColor={feature.iconColor} title={feature.title} iconNAme={feature.icon} url={feature.url}/>
                 <div
                   key={index}
                   className="p-6 rounded-xl border border-blue-500 hover:border-blue-500 transition-all duration-300"
