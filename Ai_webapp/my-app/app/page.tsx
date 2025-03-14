@@ -61,29 +61,29 @@ export default function Home() {
             {features.map((feature, index) => {
               const Icon = feature.icon;
               return (
-                <ThreeDCardDemo key={index} iconBg={feature.iconBg} iconColor={feature.iconColor} title={feature.title} iconNAme={feature.icon} url={feature.url}/>
-                // <div
-                //   key={index}
-                //   className="p-6 rounded-xl border border-blue-500 hover:border-blue-500 transition-all duration-300"
-                // >
-                //   <div
-                //     className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${feature.iconBg}`}
-                //   >
-                //     <Icon className={`w-6 h-6 ${feature.iconColor} md:item-center`} />
-                //   </div>
+                // <ThreeDCardDemo key={index} iconBg={feature.iconBg} iconColor={feature.iconColor} title={feature.title} iconNAme={feature.icon} url={feature.url}/>
+                <div
+                  key={index}
+                  className="p-6 rounded-xl border border-blue-500 hover:border-blue-500 transition-all duration-300"
+                >
+                  <div
+                    className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${feature.iconBg}`}
+                  >
+                    <Icon className={`w-6 h-6 ${feature.iconColor} md:item-center`} />
+                  </div>
 
-                //   <h3 className="text-xl font-semibold mb-2">
-                //     {feature.title}
-                //   </h3>
-                //   <p className="text-gray-600">{feature.description}</p>
-                // </div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {feature.title}
+                  </h3>
+                  <p className="text-gray-600">{feature.description}</p>
+                </div>
               );
             })}
             </div>
           </div>
         </motion.div>
       {/* Footer section */}
-      <section className="w-full overfow-hidden py-20 px-4 md:px-0 bg-gradient-to-r from-blue-600 to-blue-400">
+      <section className="w-full overfow-hidden py-20 px-4 md:px-0 bg-gradient-to-r from-blue-600 to-blue-400 rounded-3xl">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-white mb-6">
             Ready to Meet Your AI Content Agent?

@@ -14,7 +14,7 @@ export const features = [
       icon: Brain,
       iconBg: "bg-blue-100",
       iconColor: "text-blue-600",
-      url: '/https://res.cloudinary.com/djcmgdn0x/image/upload/v1741963474/tcjcxwbzlmpdjjudp0go.png'
+      url: 'https://res.cloudinary.com/djcmgdn0x/image/upload/v1741963474/tcjcxwbzlmpdjjudp0go.png'
     },
     {
       title: "Smart Transcription",
