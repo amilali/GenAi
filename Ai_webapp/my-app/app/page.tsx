@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 // import { Moon, Sun } from "lucide-react";
 import {features} from '@/app/utils'
+import Image from "next/image";
 
 
 export default function Home() {
@@ -68,7 +69,14 @@ export default function Home() {
                     className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${feature.iconBg}`}
                   >
                     <Icon className={`w-6 h-6 ${feature.iconColor} md:item-center`} />
-                  </div>
+                    {/* <div className="w-12 h-12">
+                      <img 
+                        src={feature.url} 
+                        alt={feature.title} 
+                        className="w-full h-full object-contain"
+                      />
+                      </div>*/}
+                    </div> 
 
                   <h3 className="text-xl font-semibold mb-2">
                     {feature.title}

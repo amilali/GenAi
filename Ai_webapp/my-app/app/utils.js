@@ -23,7 +23,7 @@ export const features = [
       icon: MessageSquare,
       iconBg: "bg-green-100",
       iconColor: "text-green-600",
-      url : '/Ai_webapp/my-app/Img/Ai_1.png'
+      url : 'Ai_webapp/my-app/Img/Ai_1.png'
     },
     {
       title: "Thumbnail Generation",

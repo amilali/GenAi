@@ -11,7 +11,7 @@ const Header = () => {
     <header className='sticky top-0 z-50 left-0 right-0 backdrop-blur-sm flex justify-between items-center overflow-x-clip'>
         <div>
             <Link href="/">
-                <div className='text-xl font-bold bg-gradient-to-r from-blue-500 to-sky-500 text-transparent bg-clip-text bg-[length:200%_auto] animate-[shine_2s_linear_infinite]'>
+                <div className='text-xl pl-2 font-bold bg-gradient-to-r from-blue-500 to-sky-500 text-transparent bg-clip-text bg-[length:200%_auto] animate-[shine_2s_linear_infinite]'>
                     Z3Tube.Ai
                 </div>
             </Link>
