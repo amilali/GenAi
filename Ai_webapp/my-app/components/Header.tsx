@@ -11,8 +11,8 @@ const Header = () => {
     <header className='sticky top-0 z-50 left-0 right-0 backdrop-blur-sm flex justify-between items-center overflow-x-clip'>
         <div>
             <Link href="/">
-                <div className='text-xl pl-2 font-bold bg-gradient-to-r from-blue-500 to-sky-500 text-transparent bg-clip-text bg-[length:200%_auto] animate-[shine_2s_linear_infinite]'>
-                    Z3Tube.Ai
+                <div className='text-xl pl-2 font-bold bg-gradient-to-r from-red-500 to-white text-transparent bg-clip-text bg-[length:200%_auto] animate-[shine_2s_linear_infinite]'>
+                    YTOptimizer.ai
                 </div>
             </Link>
         </div>
@@ -24,7 +24,7 @@ const Header = () => {
           </SignedIn>
           <SignedOut>
             <SignInButton mode="modal">
-              <button className="inline-flex h-6 animate-shimmer text-white items-center justify-center rounded-md border border-blue-500 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 m-2 text-md p-2">
+              <button className="inline-flex h-6 animate-shimmer text-white items-center justify-center rounded-md border border-red-500 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 m-2 text-md p-2 hover:ring-1-red-500">
                 Sign In
               </button>
             </SignInButton>
