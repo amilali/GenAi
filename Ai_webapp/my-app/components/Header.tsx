@@ -12,7 +12,7 @@ const Header = () => {
         <div>
             <Link href="/">
                 <div className='text-xl pl-2 font-bold bg-gradient-to-r from-red-500 to-white text-transparent bg-clip-text bg-[length:200%_auto] animate-[shine_2s_linear_infinite]'>
-                    YTOptimizer.ai
+                    YTOptimizer.ai``
                 </div>
             </Link>
         </div>
