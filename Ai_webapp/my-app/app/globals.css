@@ -31,6 +31,6 @@ body {
 
 @layer components {
   .text-gradient {
-    @apply bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-red-600 to-white bg-clip-text text-transparent;
   }
 }
