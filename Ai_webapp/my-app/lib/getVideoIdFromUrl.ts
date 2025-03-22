@@ -1,5 +1,5 @@
 export function getVideoIdFromUrl(url: string): string | null {
-    let videoId: string | null = null;
+    let videoId: string | null = null; // type scripts annotation. means videoId is string type or nulll then inintlize with null.
   
     if (url.includes("youtu.be/")) {
       // Shortened URL format: https://youtu.be/VIDEO_ID
