@@ -1,14 +1,8 @@
 # Empower ADK agents with tools
 
-experimentLabschedule1 hour 30 minutesuniversal\_currency\_altNo costshow\_chartAdvanced
+[link](https://partner.skills.google/focuses/711657014/reviews?parent=course_session)
 
-[](https://partner.skills.google/focuses/711657014/reviews?parent=course_session)
-
-infoThis lab may incorporate AI tools to support your learning.
-
-## GENAI105
-
-## Overview
+### Overview
 
 This lab covers the use of tools with Agent Development Kit agents.
 
