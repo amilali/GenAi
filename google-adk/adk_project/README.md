@@ -1,3 +1,5 @@
+https://partner.skills.google/paths/3033/course_templates/1275/labs/606589
+
 ## Overview: Benefits of Agent Development Kit
 
 Agent Development Kit offers several key advantages for developers building agentic applications:
