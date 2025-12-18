@@ -37,6 +37,18 @@ async def main():
     # 2. Set up the Runner
     # The runner handles the orchestration of the agent and state.
     # InMemoryRunner keeps the session state in memory.
+    # Scenario	Use InMemoryRunner?	Use ADK CLI (adk web)?
+     
+
+    # Use InMemoryRunner when:
+    # Local Testing: You want to run a quick script (python agent.py) to chat with your agent in the terminal.
+    # Embedded Apps: You are building your own app (e.g., Discord bot, Streamlit) and need to manually control the agent's loop.
+
+    # Use ADK CLI (adk web) when:
+    # Building a Web UI: You want to build a web interface for your agent.
+    # Discord/Slack Bot: You want to build a Discord or Slack bot.
+    # Production Server: You want to deploy your agent to a production server.
+
     runner = InMemoryRunner(
         agent=agent,
         app_name="my_adk_app",
