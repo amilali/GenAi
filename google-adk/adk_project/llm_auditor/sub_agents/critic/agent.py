@@ -72,5 +72,5 @@ critic_agent = Agent(
     tools=[google_search],
     before_model_callback=log_query_to_model,
     after_model_callback=_render_reference,
-    
+
 )
