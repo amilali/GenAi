@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+google-adk
+python-dotenv
+pydantic-settings
