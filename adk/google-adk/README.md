@@ -21,6 +21,9 @@ Learn how to build complex systems where multiple specialized agents collaborate
 ### [Module 4: Advanced Projects](./04-Advanced-Projects/)
 Bring everything together in a comprehensive project. This module demonstrates integrating tools, multi-agent workflows, state management, and introduces specialized auditing agents (`llm_auditor`) to monitor and evaluate your systems.
 
+### [Module 5: Standalone ADK](./05-Standalone-ADK/)
+Learn how to run ADK completely independent of Google Cloud Platform (GCP). Use the generic Developer Gemini API instead of Vertex AI, and learn how to use a standard REST API as a custom function tool without relying on Google-specific services or logging.
+
 ---
 
 ## How to use these modules for Revision
