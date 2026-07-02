@@ -3,7 +3,11 @@
 import os
 from dotenv import load_dotenv, find_dotenv
 
-# these expect to find a .env file at the directory above the lesson.                                                                                                                     # the format for that file is (without the comment)                                                                                                                                       #API_KEYNAME=AStringThatIsTheLongAPIKeyFromSomeService                                                                                                                                     
+# these expect to find a .env file at the directory above the lesson.
+# _ = ...: In Python, the underscore _ is a convention used for a throwaway variable.
+# load_dotenv() returns True if it successfully found and loaded a .env file, or False if it didn't.
+# Since we only care about the action of loading the variables and don't need to do anything with the return value itself,
+# we assign it to _ to discard it.                                                                                                                  # the format for that file is (without the comment)                                                                                                                                       #API_KEYNAME=AStringThatIsTheLongAPIKeyFromSomeService                                                                                                                                     
 def load_env():
     _ = load_dotenv(find_dotenv())
 
